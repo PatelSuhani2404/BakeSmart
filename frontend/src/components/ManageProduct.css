@@ -1,0 +1,82 @@
+.t{
+    text-align: center;
+}
+
+.manage-container {
+  padding: 20px;
+  background: #fff9f2;
+  border: 1px solid #f0c090;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 8px;
+  flex: 1 1 150px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form button {
+  padding: 8px 14px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: rgb(203, 140, 22);
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.actions button {
+  margin-left: 10px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.actions button:hover{
+    padding: 7px 12px;
+}
+
+.actions button:first-child {
+  background-color: green;
+  color: white;
+}
+
+.actions button:last-child {
+  background-color: red;
+  color: white;
+}

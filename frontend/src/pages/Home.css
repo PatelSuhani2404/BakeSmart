@@ -1,0 +1,117 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-top: auto;
+}
+
+.hero-img {
+  padding: 5px;
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+  filter: brightness(80%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero-text h1 span {
+  color: #ff9f43;
+}
+
+.btn-primary {
+  background-color: #ff9f43;
+  border: none;
+  margin-top: 10px;
+}
+
+.about {
+  max-width: 800px;
+  margin: auto;
+}
+
+.categories h2 {
+  margin-bottom: 20px;
+}
+
+.category-card {
+  background-color: rgb(252, 162, 207);
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  background-color: #ffe0b2;
+}
+
+.i{
+  height: 350px;
+  width: 350px;
+}
+
+.contact-section {
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 12px;
+}
+
+.contact-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-section p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact-form button {
+  background: #198754;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: #ff3b3b;
+}
