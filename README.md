@@ -39,7 +39,7 @@ The project is divided into three major parts:
 
 2️⃣ Django Backend
 
-  Contains multiple Django apps:
+  - Contains multiple Django apps:
     - Accounts App: Manages user registration and authentication
     - Orders App: Handles order placement and order history
     - Recommendations App: Provides product recommendations based on user behavior
@@ -80,6 +80,5 @@ The project is divided into three major parts:
 - Worked with MongoDB NoSQL database
 - Learned full-stack application architecture
 - Implemented REST APIs
-Improved understanding of React.js frontend development
-
-Built logic for recommendation syste
+- Improved understanding of React.js frontend development
+- Built logic for recommendation system
